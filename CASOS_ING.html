@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+	<head>
+		<meta charset = "utf-8">
+		<title> THAT'S ENOUGH! </title>
+		<link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+		<style type = "text/css">
+		
+			/*Corpo do Site*/
+			
+				body{
+					background-color: #000000;
+				}
+			
+			/* Menus e Submenus */
+			
+				.menu {
+					display: flex;
+					padding: 0px;
+					list-style: none;
+					padding-top: 20px;
+				}
+			
+				.menu li{
+					flex: 1;
+					font-family: arial;
+				}
+			
+				.menu li a{
+					display: block;
+					text-align: center;
+					border-bottom: solid 3px #FF0000;
+					padding: 5px;
+					text-decoration: none;
+					color: #FFFFFF;
+					font-variant: small-caps;
+				}
+				
+				.menu li a:hover{
+					background-color: #FF0000;
+				}
+			
+			
+				.menu li .SUB_RELI li{
+					width: 100%;
+				}
+			
+				.menu li .SUB_RELI {
+					position: absolute;
+					z-index: 3;
+					list-style: none;
+					width: 20%;
+					padding-left: 0;
+					visibility: hidden;
+					background-color: #000000;
+				}
+				
+				.menu li:hover .SUB_RELI {
+					visibility: visible;
+				}
+			
+				.menu li .SUB_GAL li{
+					width: 100%;
+				}
+			
+				.menu li .SUB_GAL {
+					position: absolute;
+					z-index: 3;
+					list-style: none;
+					width: 20%;
+					padding-left: 0;
+					visibility: hidden;
+					background-color: #000000;
+				}
+					
+				.menu li:hover .SUB_GAL {
+					visibility: visible;
+				}
+			
+				.menu li .SUB_HOME li{
+					width: 100%;
+				}
+			
+				.menu li .SUB_HOME {
+					position: absolute;
+					z-index: 3;
+					list-style: none;
+					width: 20%;
+					padding-left: 0;
+					visibility: hidden;
+					background-color: #000000;
+				}
+					
+				.menu li:hover .SUB_HOME {
+					visibility: visible;
+				}
+			
+			/* Textos */
+			
+				h1 {
+					color: #FFFFFF;
+					font-family: arial;
+					font-size: 80px;
+					font-family: 'Russo One', sans-serif;
+				}
+			
+				.T1{
+					color: #FFFFFF;
+					font-size: 25px;
+					font-family: arial;
+					position: absolute;
+					right: 40px;
+				}
+				
+				.T2{
+					color: #FFFFFF;
+					font-size: 25px;
+					font-family: arial;
+					position: absolute;
+					right: 40px;
+					top: 670px;
+				}
+				
+				.T3{
+					color: #FFFFFF;
+					font-size: 25px;
+					font-family: arial;
+					position: absolute;
+					right: 40px;
+					top: 1040px;
+				}
+				
+				.T4{
+					color: #FFFFFF;
+					font-size: 25px;
+					font-family: arial;
+					position: absolute;
+					right: 150px;
+					top: 1425px;
+				}
+					
+				.texto1 {
+					position:absolute;
+					right: 55px;
+					top: 330px;
+					color: #FFFFFF;
+					font-size: 17px;
+					font-family: arial;
+					text-align: justify;
+					width: 500px;
+			
+				}
+				
+				.texto2 {
+					position:absolute;
+					right: 55px;
+					top: 730px;
+					color: #FFFFFF;
+					font-size: 17px;
+					font-family: arial;
+					text-align: justify;
+					width: 500px;
+			
+				}
+				
+				.texto3 {
+					position:absolute;
+					right: 55px;
+					top: 1105px;
+					color: #FFFFFF;
+					font-size: 17px;
+					font-family: arial;
+					text-align: justify;
+					width: 500px;
+				}
+				
+				.texto4 {
+					position:absolute;
+					right: 55px;
+					top: 1500px;
+					color: #FFFFFF;
+					font-size: 17px;
+					font-family: arial;
+					text-align: justify;
+					width: 500px;
+			
+				}
+			
+				.texto5 {
+					position:absolute;
+					right: 180px;
+					top: 1800px;
+					color: #FFFFFF;
+					font-size: 17px;
+					font-family: arial;
+					text-align: center;
+					width: 1000px;
+			
+				}
+			
+			/* Imagens */
+
+				.logo {
+					position: absolute;
+					right: 260px;
+					top: 520px;
+					width: 100px;
+					height: 50px;
+				}
+				
+				.logo2 {
+					position: absolute;
+					right: 260px;
+					top: 900px;
+					width: 100px;
+					height: 50px;
+				}
+				
+				.logo3 {
+					position: absolute;
+					right: 260px;
+					top: 1300px;
+					width: 100px;
+					height: 50px;
+				}
+
+				.caso1 {
+					padding-top: 20px;
+					position: absolute;
+					left: 100px;
+					width: 400px;
+					height: 200px;
+				}
+				
+				.caso2 {
+					padding-top: 20px;
+					position: absolute;
+					top: 630px;
+					left: 100px;
+					width: 400px;
+					height: 200px;
+				}
+				
+				.caso3 {
+					padding-top: 20px;
+					position: absolute;
+					top: 1025px;
+					left: 100px;
+					width: 400px;
+					height: 200px;
+				}
+				
+				.caso4 {
+					padding-top: 20px;
+					position: absolute;
+					top: 1425px;
+					left: 100px;
+					width: 400px;
+					height: 200px;
+				}
+				
+		
+		</style>
+	</head>
+	<body>
+		<ul class = "menu">
+			<li> <a href = "#"> Home </a> 
+				<ul class = "SUB_HOME">
+					<li> <a href = "PAGINA_RAIZ.html"> Portuguese </a> </li>
+					<li> <a href = "PAGINA_RAIZ_ING.html"> English </a> </li>
+				</ul>
+			</li>
+			<li> <a href = "#"> Religions </a> 
+				<ul class = "SUB_RELI">
+					<li> <a href = "RELIGIOES/CATOLICISMO_ING.html"> Catholic </a>
+					<li> <a href = "RELIGIOES/EVANGELISMO_ING.html"> Evangelical </a>
+					<li> <a href = "RELIGIOES/ATEISMO_ING.html"> Atheist </a>
+					<li> <a href = "RELIGIOES/ESPIRITISMO_ING.html"> Spiritist </a>
+					<li> <a href = "RELIGIOES/AFRO_ING.html"> Afro-Brazilian </a>
+				</ul>
+			</li>
+				
+			<li> <a href = "#"> Gallery </a> 
+				<ul class = "SUB_GAL">
+					<li> <a href = "GALERIA/GALERIA_FOTOS_ING.html"> Image Gallery </a>
+					<li> <a href = "GALERIA/MAPA_ING.html"> Cases Map </a>
+				</ul>
+			</li>
+			
+			<li> <a href = "CASOS_ING.html"> Testimonies </a> </li>
+			<li> <a href = "DENUNCIAS_ING.html"> Complaints </a> </li>
+		</ul>
+		<h1> <center> News and Testimonials </center> </h1>
+		
+		<h2> <p class = "T1" > Case in the Federal District - Afro-Brazilian Religion </p> </h2> 
+		<p class="texto1"> The first case that we will quote here occurred in the Federal District on November 28
+2015 and consisted of an attack on a Candomblé Space, people set fire to the place, there were no
+injured. Know more <b> <a href = "http://g1.globo.com/distrito-federal/noticia/2015/11/apos-fogo-em-terreiro-df-anuncia-delegacia-contra-intolerancia-religiosa.html"
+		target = "_blank"> here. </a> </b> </p>
+		<img class = "caso1" src = "CASO1.jpg">
+		
+		<center> <img class = "logo" src = "LOGO.png"> </center>
+		
+		<h2> <p class = "T2" > Case in the Federal District - Afro-Brazilian Religion </p> </h2> 
+		<p class="texto2"> 
+					The second case that we will quote here also occurred in the Federal District on December 29
+2015 and consisted of an attack on a statue of an orisha in Prainha do Lago Paranoá.
+Know more
+ <b> <a href = "http://g1.globo.com/distrito-federal/noticia/2015/12/estatua-de-orixa-e-depredada-na-prainha-do-lago-paranoa-no-df.html"
+		target = "_blank"> here. </a> </b> </p>
+		<img class = "caso2" src = "CASO2.jpg">
+		
+		<center> <img class = "logo2" src = "LOGO.png"> </center>
+		
+		<h2> <p class = "T3" > Case in Rio de Janeiro - Afro-Brazilian Religion </p> </h2> 
+		<p class="texto3"> The third case that we will quote here occurred in Rio de Janeiro on the 16th of June
+2015 and consisted of an attack on a girl just eleven years old, who got hit on the head after
+Candomblé meeting. Know more <b> <a href = "http://g1.globo.com/rio-de-janeiro/noticia/2015/06/menina-vitima-de-intolerancia-religiosa-diz-que-vai-ser-dificil-esquecer-pedrada.html"
+		target = "_blank"> here. </a> </b> </p>
+		<img class = "caso3" src = "CASO3.jpg">
+		
+		<center> <img class = "logo3" src = "LOGO.png"> </center>
+		
+		<h2> <p class = "T4" > Case in São Paulo - Catholic Religion </p> </h2> 
+		<p class="texto4"> The fourth case that we will quote here occurred in Botucatu, SP on December 10
+of 2018 and consisted of an evangelical pastor breaking hammered an image of Our Lady of the Apparition (Patroness
+of Catholic Religion). Know more <b> <a href = "https://veja.abril.com.br/brasil/video-mostra-evangelica-quebrando-imagem-de-nossa-senhora-em-sp/"
+		target = "_blank"> here. </a> </b> </p>
+		<img class = "caso4" src = "CASO4.jpg">
+		
+		<center> <p class = "texto5">These are just a few cases of religious intolerance in Brazil. If you want
+see more cases and news, you can access this <b> <a href = "https://docplayer.com.br/106251531-Intolerancia-religiosa-no-brasil-relatorio-e-balanco.html" target="_blank"> document </a> </b> hat
+has a complete analysis on religious intolerance in Brazil.
+	</body>
+</html>

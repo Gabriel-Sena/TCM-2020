@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+	<head>
+		<meta charset = "utf-8">
+		<title> THAT'S ENOUGH! </title>
+		<link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+		<style type = "text/css">
+		
+			/*Corpo do Site*/
+			
+				body{
+					background-color: #000000;
+				}
+			
+			/* Menus e Submenus */
+			
+				.menu {
+					display: flex;
+					padding: 0px;
+					list-style: none;
+					padding-top: 20px;
+				}
+			
+				.menu li{
+					flex: 1;
+					font-family: arial;
+				}
+			
+				.menu li a{
+					display: block;
+					text-align: center;
+					border-bottom: solid 3px #FF0000;
+					padding: 5px;
+					text-decoration: none;
+					color: #FFFFFF;
+					font-variant: small-caps;
+				}
+				
+				.menu li a:hover{
+					background-color: #FF0000;
+				}
+			
+			
+				.menu li .SUB_RELI li{
+					width: 100%;
+				}
+			
+				.menu li .SUB_RELI {
+					position: absolute;
+					z-index: 3;
+					list-style: none;
+					width: 20%;
+					padding-left: 0;
+					visibility: hidden;
+					background-color: #000000;
+				}
+				
+				.menu li:hover .SUB_RELI {
+					visibility: visible;
+				}
+			
+				.menu li .SUB_GAL li{
+					width: 100%;
+				}
+			
+				.menu li .SUB_GAL {
+					position: absolute;
+					z-index: 3;
+					list-style: none;
+					width: 20%;
+					padding-left: 0;
+					visibility: hidden;
+					background-color: #000000;
+				}
+					
+				.menu li:hover .SUB_GAL {
+					visibility: visible;
+				}
+				
+				.menu li .SUB_HOME li{
+					width: 100%;
+				}
+			
+				.menu li .SUB_HOME {
+					position: absolute;
+					z-index: 3;
+					list-style: none;
+					width: 20%;
+					padding-left: 0;
+					visibility: hidden;
+					background-color: #000000;
+				}
+					
+				.menu li:hover .SUB_HOME {
+					visibility: visible;
+				}
+			
+			/* Textos */
+			
+				.T1{
+					color: #FFFFFF;
+					font-size: 25px;
+					font-family: arial;
+					position: absolute;
+					right: 110px;
+				}
+			
+				h1 {
+					color: #FFFFFF;
+					font-family: arial;
+					font-size: 80px;
+					font-family: 'Russo One', sans-serif;
+				}
+					
+			
+			/* Imagens */
+
+				.img1 {
+					padding-top: 20px;
+					position: absolute;
+					left: 0px;
+					width: 700px;
+					height: 500px;
+					
+				}
+				
+				.img2 {
+					padding-top: 20px;
+					position: absolute;
+					left: 0px;
+					top: 900px;
+					width: 700px;
+					height: 500px;
+					
+				}
+				
+				.img3 {
+					padding-top: 20px;
+					position: absolute;
+					left: 0px;
+					top: 1480px;
+					width: 700px;
+					height: 500px;
+					
+				}
+				
+				.img4 {
+					padding-top: 20px;
+					position: absolute;
+					top: 2055px;
+					left: 0px;
+					width: 700px;
+					height: 500px;
+					
+				}
+				
+				.img5 {
+					padding-top: 20px;
+					position: absolute;
+					right: 0px;
+					width: 700px;
+					height: 500px;
+					border-left: solid 5px black;
+				}
+				
+				.img6 {
+					padding-top: 20px;
+					position: absolute;
+					top: 900px;
+					right: 0px;
+					width: 700px;
+					height: 500px;
+					border-left: solid 5px black;
+				}
+				
+				.img7 {
+					padding-top: 20px;
+					position: absolute;
+					top: 1480px;
+					right: 0px;
+					width: 700px;
+					height: 500px;
+					border-left: solid 5px black;
+				}
+				
+				.img8 {
+					padding-top: 20px;
+					position: absolute;
+					top: 2055px;
+					right: 0px;
+					width: 700px;
+					height: 500px;
+					border-left: solid 5px black;
+				}
+		
+				.logo {	
+				width: 100px;
+				height: 50px;
+				}
+		
+		</style>
+	</head>
+	<body>
+		<ul class = "menu">
+			<li> <a href = "#"> Home </a> 
+				<ul class = "SUB_HOME">
+					<li> <a href = "../PAGINA_RAIZ.html"> Portuguese </a> </li>
+					<li> <a href = "../PAGINA_RAIZ_ING.html"> English </a> </li>
+				</ul>
+			</li>
+			<li> <a href = "#"> Religions </a> 
+				<ul class = "SUB_RELI">
+					<li> <a href = "../RELIGIOES/CATOLICISMO_ING.html"> Catholic </a>
+					<li> <a href = "../RELIGIOES/EVANGELISMO_ING.html"> Evangelical </a>
+					<li> <a href = "../RELIGIOES/ATEISMO_ING.html"> Atheist </a>
+					<li> <a href = "../RELIGIOES/ESPIRITISMO_ING.html"> Spiritist </a>
+					<li> <a href = "../RELIGIOES/AFRO_ING.html"> Afro-Brazilian </a>
+				</ul>
+			</li>
+				
+			<li> <a href = "#"> Gallery </a> 
+				<ul class = "SUB_GAL">
+					<li> <a href = "GALERIA_FOTOS_ING.html"> Image Gallery </a>
+					<li> <a href = "MAPA_ING.html"> Cases Map </a>
+				</ul>
+			</li>
+			
+			<li> <a href = "../CASOS_ING.html"> Testimonies </a> </li>
+			<li> <a href = "../DENUNCIAS_ING.html"> Complaints </a> </li>
+		</ul>
+		<h1> <center> Image Gallery </center> </h1>
+		<center> <img class="logo" src= "../LOGO.png"> </center>
+		<center> <img class="img1" src = "1.jpg"> </center>
+		<center> <img class="img2" src = "2.jpg"> </center>
+		<center> <img class="img3" src = "3.jpg"> </center>
+		<center> <img class="img4" src = "4.jpg"> </center>
+		<center> <img class="img5" src = "5.jpg"> </center>
+		<center> <img class="img6" src = "6.jpg"> </center>
+		<center> <img class="img7" src = "7.jpg"> </center>
+		<center> <img class="img8" src = "8.jpg"> </center>
+		 
+		
+	</body>
+</html>

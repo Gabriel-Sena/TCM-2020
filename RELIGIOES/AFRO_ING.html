@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+	<head>
+		<meta charset = "utf-8">
+		<title> THAT'S ENOUGH! </title>
+		<link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+		<style type = "text/css">
+		
+			/*Corpo do Site*/
+			
+				body{
+					background-color: #000000;
+				}
+			
+			/* Menus e Submenus */
+			
+				.menu {
+					display: flex;
+					padding: 0px;
+					list-style: none;
+					padding-top: 20px;
+				}
+			
+				.menu li{
+					flex: 1;
+					font-family: arial;
+				}
+			
+				.menu li a{
+					display: block;
+					text-align: center;
+					border-bottom: solid 3px #FF0000;
+					padding: 5px;
+					text-decoration: none;
+					color: #FFFFFF;
+					font-variant: small-caps;
+				}
+				
+				.menu li a:hover{
+					background-color: #FF0000;
+				}
+			
+			
+				.menu li .SUB_RELI li{
+					width: 100%;
+				}
+			
+				.menu li .SUB_RELI {
+					position: absolute;
+					z-index: 3;
+					list-style: none;
+					width: 20%;
+					padding-left: 0;
+					visibility: hidden;
+					background-color: #000000;
+				}
+				
+				.menu li:hover .SUB_RELI {
+					visibility: visible;
+				}
+			
+				.menu li .SUB_GAL li{
+					width: 100%;
+				}
+			
+				.menu li .SUB_GAL {
+					position: absolute;
+					z-index: 3;
+					list-style: none;
+					width: 20%;
+					padding-left: 0;
+					visibility: hidden;
+					background-color: #000000;
+				}
+					
+				.menu li:hover .SUB_GAL {
+					visibility: visible;
+				}
+				
+				.menu li .SUB_HOME li{
+					width: 100%;
+				}
+			
+				.menu li .SUB_HOME {
+					position: absolute;
+					z-index: 3;
+					list-style: none;
+					width: 20%;
+					padding-left: 0;
+					visibility: hidden;
+					background-color: #000000;
+				}
+					
+				.menu li:hover .SUB_HOME {
+					visibility: visible;
+				}
+			
+			/* Textos */
+			
+				.T1{
+					color: #FFFFFF;
+					font-size: 25px;
+					font-family: arial;
+					position: absolute;
+					right: 200px;
+				}
+			
+				h1 {
+					color: #FFFFFF;
+					font-family: arial;
+					font-size: 80px;
+					font-family: 'Russo One', sans-serif;
+				}
+					
+				.sgn {
+					position:absolute;
+					right: 60px;
+					top: 350px;
+					color: #FFFFFF;
+					font-size: 17px;
+					font-family: arial;
+					text-align: justify;
+					width: 500px;
+			
+				}
+			
+			/* Imagens */
+
+				.img1 {
+					padding-top: 20px;
+					position: absolute;
+					left: 0px;
+					width: 700px;
+					height: 500px;
+				}
+				
+				.logo {
+					position: absolute;
+					right: 260px;
+					top: 630px;
+					width: 100px;
+					height: 50px;
+				}
+				
+		</style>
+	</head>
+	<body>
+		<ul class = "menu">
+			<li> <a href = "#"> Home </a> 
+				<ul class = "SUB_HOME">
+					<li> <a href = "../PAGINA_RAIZ.html"> Portuguese </a> </li>
+					<li> <a href = "../PAGINA_RAIZ_ING.html"> English </a> </li>
+				</ul>
+			</li>
+			<li> <a href = "#"> Religions </a> 
+				<ul class = "SUB_RELI">
+					<li> <a href = "CATOLICISMO_ING.html"> Catholic </a>
+					<li> <a href = "EVANGELISMO_ING.html"> Evangelical </a>
+					<li> <a href = "ATEISMO_ING.html"> Atheist </a>
+					<li> <a href = "ESPIRITISMO_ING.html"> Spiritist </a>
+					<li> <a href = "AFRO_ING.html"> Afro-Brazilian </a>
+				</ul>
+			</li>
+				
+			<li> <a href = "#"> Gallery </a> 
+				<ul class = "SUB_GAL">
+					<li> <a href = "../GALERIA/GALERIA_FOTOS_ING.html"> Image Gallery </a>
+					<li> <a href = "../GALERIA/MAPA_ING.html"> Cases Map </a>
+				</ul>
+			</li>
+			
+			<li> <a href = "../CASOS_ING.html"> Testimonies </a> </li>
+			<li> <a href = "../DENUNCIAS_ING.html"> Complaints </a> </li>
+		</ul>
+		<h1> <center> Afro-Brazilian Religions </center> </h1>
+		<center> <img class="img1" src = "AFRO.jpg"> </center>
+		<h2> <p class = "T1" > About this religion: </p> </h2> 
+		<p class="sgn"> 
+According to the latest IBGE census, 1.6% of the Brazilian population follows religions
+Umbanda and Candomblé (The IGBE did not separate religions, it only gave a general term to represent all
+). These religions arose in the slavery period, when millions of Africans arrived and there was a mixture
+cultural, religious and linguistic. It was the religion that suffered most (and still suffers) religious intolerance. Umbanda
+it is a mixture of the cult of the Orixás with elements of indigenous religions and a certain syncretism with Catholicism. Already
+Candomblé is a religion that remains very faithful to the origins of African religions.</p>
+		<img class="logo" src= "../LOGO.png">
+	</body>
+</html>

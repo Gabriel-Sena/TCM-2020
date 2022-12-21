@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+	<head>
+		<meta charset = "utf-8">
+		<title> CHEGA! </title>
+		<link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+		<style type = "text/css">
+		
+			/*Corpo do Site*/
+			
+				body{
+					background-color: #000000;
+				}
+			
+			/* Menus e Submenus */
+			
+	.menu {
+					display: flex;
+					padding: 0px;
+					list-style: none;
+					padding-top: 20px;
+				}
+			
+				.menu li{
+					flex: 1;
+					font-family: arial;
+				}
+			
+				.menu li a{
+					display: block;
+					text-align: center;
+					border-bottom: solid 3px #FF0000;
+					padding: 5px;
+					text-decoration: none;
+					color: #FFFFFF;
+					font-variant: small-caps;
+				}
+				
+				.menu li a:hover{
+					background-color: #FF0000;
+				}
+			
+			
+				.menu li .SUB_RELI li{
+					width: 100%;
+				}
+			
+				.menu li .SUB_RELI {
+					position: absolute;
+					z-index: 3;
+					list-style: none;
+					width: 20%;
+					padding-left: 0;
+					visibility: hidden;
+					background-color: #000000;
+				}
+				
+				.menu li:hover .SUB_RELI {
+					visibility: visible;
+				}
+			
+				.menu li .SUB_GAL li{
+					width: 100%;
+				}
+			
+				.menu li .SUB_GAL {
+					position: absolute;
+					z-index: 3;
+					list-style: none;
+					width: 20%;
+					padding-left: 0;
+					visibility: hidden;
+					background-color: #000000;
+				}
+					
+				.menu li:hover .SUB_GAL {
+					visibility: visible;
+				}
+				
+				.menu li .SUB_HOME li{
+					width: 100%;
+				}
+			
+				.menu li .SUB_HOME {
+					position: absolute;
+					z-index: 3;
+					list-style: none;
+					width: 20%;
+					padding-left: 0;
+					visibility: hidden;
+					background-color: #000000;
+				}
+					
+				.menu li:hover .SUB_HOME {
+					visibility: visible;
+				}
+			
+			
+			/* Textos */
+			
+				.T1{
+					color: #FFFFFF;
+					font-size: 25px;
+					font-family: arial;
+					position: absolute;
+					right: 200px;
+				}
+			
+				h1 {
+					color: #FFFFFF;
+					font-family: arial;
+					font-size: 80px;
+					font-family: 'Russo One', sans-serif;
+				}
+					
+				.sgn {
+					position:absolute;
+					right: 60px;
+					top: 350px;
+					color: #FFFFFF;
+					font-size: 17px;
+					font-family: arial;
+					text-align: justify;
+					width: 500px;
+			
+				}
+			
+			/* Imagens */
+
+				.img1 {
+					padding-top: 20px;
+					position: absolute;
+					left: 0px;
+					width: 700px;
+					height: 500px;
+				}
+				
+				.logo {
+					position: absolute;
+					right: 260px;
+					top: 570px;
+					width: 100px;
+					height: 50px;
+				}
+		
+		</style>
+	</head>
+	<body>
+		<ul class = "menu">
+			<li> <a href = "#"> Home </a> 
+				<ul class = "SUB_HOME">
+					<li> <a href = "../PAGINA_RAIZ.html"> Português </a> </li>
+					<li> <a href = "../PAGINA_RAIZ_ING.html"> Inglês </a> </li>
+				</ul>
+			</li>
+			<li> <a href = "#"> Religiões </a> 
+				<ul class = "SUB_RELI">
+					<li> <a href = "CATOLICISMO.html"> Católica </a>
+					<li> <a href = "EVANGELISMO.html"> Evangélica </a>
+					<li> <a href = "ATEISMO.html"> Ateia </a>
+					<li> <a href = "ESPIRITISMO.html"> Espírita </a>
+					<li> <a href = "AFRO.html"> Afro-Brasileiras </a>
+				</ul>
+			</li>
+				
+			<li> <a href = "#"> Galeria </a> 
+				<ul class = "SUB_GAL">
+					<li> <a href = "../GALERIA/GALERIA_FOTOS.html"> Galeria de Imagens </a>
+					<li> <a href = "../GALERIA/MAPA.html"> Mapa de Casos </a>
+				</ul>
+			</li>
+			
+			<li> <a href = "../CASOS.html"> Depoimentos </a> </li>
+			<li> <a href = "../DENUNCIAS.html"> Denúncias </a> </li>
+		</ul>
+		<h1> <center> Religião Espírita </center> </h1>
+		<center> <img class="img1" src = "ESPIRITISMO.jpg"> </center>
+		<h2> <p class = "T1" > Sobre esta religião: </p> </h2> 
+		<p class="sgn"> De acordo com o último censo do IBGE, os espíritas representam 2% da população
+		brasileira, sendo a quarta maior religião brasileira. Esta religião surgiu na tentativa de Allan
+		Kardec de tentar unir a filosofia, a ciência e a religião. Eles acreditam na mediunidade (Comunicação
+		entre as pessoas vivas e pessoas já falecidas). Pra eles a figura de Jesus Cristo é uma inspiração para
+		o desenvolvimento moral e para a prática da caridade.</p>
+		<img class="logo" src= "../LOGO.png">
+	</body>
+</html>

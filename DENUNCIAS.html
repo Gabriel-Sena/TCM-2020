@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+	<head>
+		<meta charset = "utf-8">
+		<title> CHEGA! </title>
+		<link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+		<style type = "text/css">
+		
+			/*Corpo do Site*/
+			
+				body{
+					background-color: #000000;
+				}
+			
+			/* Menus e Submenus */
+			
+				.menu {
+					display: flex;
+					padding: 0px;
+					list-style: none;
+					padding-top: 20px;
+				}
+			
+				.menu li{
+					flex: 1;
+					font-family: arial;
+				}
+			
+				.menu li a{
+					display: block;
+					text-align: center;
+					border-bottom: solid 3px #FF0000;
+					padding: 5px;
+					text-decoration: none;
+					color: #FFFFFF;
+					font-variant: small-caps;
+				}
+				
+				.menu li a:hover{
+					background-color: #FF0000;
+				}
+			
+			
+				.menu li .SUB_RELI li{
+					width: 100%;
+				}
+			
+				.menu li .SUB_RELI {
+					position: absolute;
+					z-index: 3;
+					list-style: none;
+					width: 20%;
+					padding-left: 0;
+					visibility: hidden;
+					background-color: #000000;
+				}
+				
+				.menu li:hover .SUB_RELI {
+					visibility: visible;
+				}
+			
+				.menu li .SUB_GAL li{
+					width: 100%;
+				}
+			
+				.menu li .SUB_GAL {
+					position: absolute;
+					z-index: 3;
+					list-style: none;
+					width: 20%;
+					padding-left: 0;
+					visibility: hidden;
+					background-color: #000000;
+				}
+					
+				.menu li:hover .SUB_GAL {
+					visibility: visible;
+				}
+				
+				.menu li .SUB_HOME li{
+					width: 100%;
+				}
+			
+				.menu li .SUB_HOME {
+					position: absolute;
+					z-index: 3;
+					list-style: none;
+					width: 20%;
+					padding-left: 0;
+					visibility: hidden;
+					background-color: #000000;
+				}
+					
+				.menu li:hover .SUB_HOME {
+					visibility: visible;
+				}
+			
+			
+			/* Textos */
+			
+			
+				h1 {
+					color: #FFFFFF;
+					font-family: arial;
+					font-size: 80px;
+					font-family: 'Russo One', sans-serif;
+				}
+				
+			
+			/* Formulário */
+				
+				form {
+				width: 900px;
+				margin-right: auto;
+				margin-left: auto;
+			}
+			
+			legend{
+				border: solid 2px black;
+				background: rgb(78,78,78);
+				background: linear-gradient(175deg, rgba(78,78,78,1) 0%, rgba(78,78,78,0) 100%);
+				height: 30px;
+				width: 200px;
+
+			}
+			
+			input[type=number] {
+				position: absolute;
+				left: 150px;
+				width: 150px;
+			}
+			
+			input[type=text] {
+				position: absolute;
+				left: 150px;
+				width: 150px;
+			}
+			
+			input{
+				background-color: white;
+				border: solid 2px black;
+				border-radius: 5px;
+			}
+			
+			input[type=email] {
+				position: absolute;
+				left: 150px;
+				width:150px;
+			}
+			
+			select{
+				position:absolute;
+				left: 150px;
+				width: 158px;
+				background-color: white;
+				border: solid 2px black;
+				border-radius: 5px;
+			}
+			
+			fieldset {
+				position: relative;
+				margin-bottom: 30px;
+				background: rgb(78,78,78);
+				background: linear-gradient(175deg, rgba(78,78,78,1) 0%, rgba(78,78,78,0) 100%);
+				font-family: arial;
+				border: solid 2px white;
+				color: white;
+			}
+			
+			input[type=submit] {
+				border-radius: 5px;
+				width: 150px;
+			}
+			
+			input[type=reset] {
+				border-radius: 5px;
+				width: 150px;
+			}
+			
+			textarea{
+				width: 860px;
+				height: 100px;
+			}
+			
+			/* Imagens */
+			
+			.logo {	
+				width: 100px;
+				height: 50px;
+				}
+			
+			
+		
+		</style>
+	</head>
+	<body>
+		<ul class = "menu">
+			<li> <a href = "#"> Home </a> 
+				<ul class = "SUB_HOME">
+					<li> <a href = "PAGINA_RAIZ.html"> Português </a> </li>
+					<li> <a href = "PAGINA_RAIZ_ING.html"> Inglês </a> </li>
+				</ul>
+			</li>
+			<li> <a href = "#"> Religiões </a> 
+				<ul class = "SUB_RELI">
+					<li> <a href = "RELIGIOES/CATOLICISMO.html"> Católica </a>
+					<li> <a href = "RELIGIOES/EVANGELISMO.html"> Evangélica </a>
+					<li> <a href = "RELIGIOES/ATEISMO.html"> Ateia </a>
+					<li> <a href = "RELIGIOES/ESPIRITISMO.html"> Espírita </a>
+					<li> <a href = "RELIGIOES/AFRO.html"> Afro-Brasileiras </a>
+				</ul>
+			</li>
+				
+			<li> <a href = "#"> Galeria </a> 
+				<ul class = "SUB_GAL">
+					<li> <a href = "GALERIA/GALERIA_FOTOS.html"> Galeria de Imagens </a>
+					<li> <a href = "GALERIA/MAPA.html"> Mapa de Casos </a>
+				</ul>
+			</li>
+			
+			<li> <a href = "CASOS.html"> Depoimentos </a> </li>
+			<li> <a href = "DENUNCIAS.html"> Denúncias </a> </li>
+		</ul>
+		
+		<h1> <center> Formulário de Denúncia </center> </h1>
+		<center> <img class="logo" src= "LOGO.png"> </center>
+		<form method = "POST" action = "PROCESSA.php">
+			<fieldset>
+			
+				<legend> <center> <b> Informações Pessoais </b> </center> </legend> 
+					
+					<p> <label for = "p_nome"> <b> Nome: </b> </label>
+					<input type = "text" name = "p_nome"> </p>
+			
+					<p> <label for = "p_tel"> <b> Telefone: </b> </label>
+					<input type = "number" name = "p_tel"> </p>
+			
+					<p> <label for = "p_ema"> <b> E-mail: </b> </label>
+					<input type = "email" name = "p_ema"> </p>
+					
+					<p> <label for = "p_ida"> <b> Idade: </b> </label>
+					<input type = "number" name = "p_ida" min = "1" max = "130" required> </p>
+					
+					<p> <label for = "p_gen"> <b> Gênero: </b> </label>
+					<select name = "p_gen" required> </p>
+						<option value = "masc"> Masculino </option>
+						<option value "fem"> Feminino </option>
+						<option value = "n_info"> Prefiro não informar </option>
+					</select>
+					
+			</fieldset>
+			<fieldset>
+				<legend> <center> <b> Denúncia </b> </center> </legend>
+					
+					<p><label for = "dnc">  </label>
+					<textarea name = "dnc" required> </textarea> </p>
+			
+			</fieldset>		
+					
+					<input type = "submit" name = "Enviar">
+					<input type = "reset" name = "Redefinir">
+					
+		</form>
+	
+	</body>
+</html>
